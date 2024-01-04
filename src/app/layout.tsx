@@ -8,13 +8,9 @@ export const metadata: Metadata = {
   description: 'Algorithm Games',
 }
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="ja">
+    <html lang='ja'>
       <body className={inter.className}>{children}</body>
     </html>
   )
